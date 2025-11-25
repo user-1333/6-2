@@ -6,7 +6,7 @@ SELECT * FROM players
 -- 12
 SELECT * FROM countries
     WHERE NOT group_name = 'A';
--- 13 pdfの結果が間違えてる id=1 => BMI:22.84
+-- 13 
 SELECT *,weight/POW(height/100,2) as BMI
 FROM players
 WHERE weight/POW(height/100,2) >= 20
